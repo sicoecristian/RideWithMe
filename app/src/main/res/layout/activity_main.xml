@@ -103,6 +103,7 @@
         >
 
         <ImageView
+            android:id="@+id/googleSignIn"
             android:layout_width="490dp"
             android:layout_height="48dp"
             android:src="@drawable/google_signin" />

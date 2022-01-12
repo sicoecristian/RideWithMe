@@ -1,2 +1,4 @@
-package com.app.ridewithme.exceptions;public class UserAlreadyExistsException {
+package com.app.ridewithme.exceptions;
+
+public class UserAlreadyExistsException extends Exception{
 }

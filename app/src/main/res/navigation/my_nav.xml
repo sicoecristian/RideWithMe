@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/addARide">
+
+    <fragment
+        android:id="@+id/addARide"
+        android:name="com.app.ridewithme.fragments.AddARide"
+        android:label="fragment_add_a_ride"
+        tools:layout="@layout/fragment_add_a_ride" />
+    <fragment
+        android:id="@+id/myAccount"
+        android:name="com.app.ridewithme.fragments.MyAccount"
+        android:label="fragment_my_account"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/availableRides"
+        android:name="com.app.ridewithme.fragments.AvailableRides"
+        android:label="fragment_available_rides"
+        tools:layout="@layout/fragment_available_rides" />
+</navigation>

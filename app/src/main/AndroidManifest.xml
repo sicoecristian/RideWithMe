@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RideWithMe">
         <activity
+            android:name=".LogedInScreenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_loged_in_screen" />
+        <activity
+            android:name=".GoogleSignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,9 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterAccountActivity"
-            android:exported="true">
-        </activity>
+        <activity
+            android:name=".RegisterAccountActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

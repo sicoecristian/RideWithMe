@@ -54,7 +54,7 @@
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/passwordInput"
+        android:id="@+id/registerPasswordInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/createNewAccount"
@@ -70,6 +70,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20dp" />
+
     <EditText
         android:id="@+id/registerPasswordRepeat"
         android:layout_width="match_parent"
@@ -88,14 +89,14 @@
         android:textColorHint="@color/white"
         android:textSize="20dp" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/registerAccountButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordInput"
+        android:layout_below="@id/registerPasswordInput"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="101dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="#30ffffff"
